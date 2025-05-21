@@ -1,0 +1,16 @@
+[
+  {
+    "Test Case ID": "JSON_TC001",
+    "Title": "Successful Credit Card Payment JSON",
+    "Preconditions": "User has items in cart. User is at checkout payment step.",
+    "Steps": "Enter valid CC details. Submit payment.",
+    "Expected Results": "Payment successful. Order confirmation shown."
+  },
+  {
+    "Test Case ID": "JSON_TC002",
+    "Title": "Failed Payment - Insufficient Funds JSON",
+    "Preconditions": "User has items in cart. User is at checkout payment step.",
+    "Steps": "Enter CC details for an account with insufficient funds. Submit payment.",
+    "Expected Results": "Payment failed message. 'Insufficient funds' reason displayed."
+  }
+]

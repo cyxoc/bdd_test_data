@@ -1,0 +1,18 @@
+Title: Advanced Search with Filters TXT
+Preconditions: User is on the search results page.
+Steps:
+- Apply 'Category: Electronics' filter.
+- Apply 'Price Range: $50-$100' filter.
+- Click 'Apply Filters'.
+Expected Results:
+- Only electronic products between $50 and $100 are displayed.
+- Filter tags are visible.
+---
+Title: User Profile Update - Invalid Phone TXT
+Preconditions: User is logged in and on their profile edit page.
+Steps:
+- Enter 'abcdefghij' into the phone number field.
+- Click 'Save Profile'.
+Expected Results:
+- An error message 'Invalid phone number format' is displayed.
+- Profile is not updated with the invalid phone number.
