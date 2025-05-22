@@ -1,0 +1,13 @@
+# User Stories
+- story_id: US001
+  title: As a user, I want to register for an account so I can access personalized features.
+  acceptance_criteria:
+    - User can navigate to registration page.
+    - User can fill in required fields (username, email, password).
+    - User receives a confirmation upon successful registration.
+- story_id: US002
+  title: As a user, I want to log in to my account so I can view my orders.
+  acceptance_criteria:
+    - User can navigate to login page.
+    - User can enter valid credentials.
+    - User is redirected to dashboard upon successful login.
