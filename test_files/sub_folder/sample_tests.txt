@@ -1,0 +1,37 @@
+Test Case ID: TC_TXT_001
+Title: Update Profile Information from Text
+Preconditions:
+User "txt_user" is logged in.
+User is on the "Edit Profile" page.
+Steps:
+1. Change the "First Name" field to "TextUserUpdated".
+2. Click the "Save Changes" button.
+Expected Results:
+Profile information is updated successfully.
+A confirmation message "Profile updated" is displayed.
+The "First Name" on the profile page shows "TextUserUpdated".
+---
+Test Case ID: TC_TXT_002
+Title: Logout Functionality from Text
+Preconditions:
+User "txt_user_logout" is currently logged in.
+Steps:
+1. Click on the "Profile" dropdown.
+2. Click the "Logout" button/link.
+Expected Results:
+User is successfully logged out.
+User is redirected to the login page or homepage.
+Session is invalidated.
+---
+Test Case ID: TC_TXT_003
+Title: Empty Cart Checkout Attempt from Text
+Preconditions:
+User is logged in.
+The shopping cart is empty.
+User is on the shopping cart page.
+Steps:
+1. Click the "Proceed to Checkout" button.
+Expected Results:
+A message "Your cart is empty. Please add items before proceeding to checkout." is displayed.
+User remains on the cart page or is redirected to the product listing page.
+Checkout process is not initiated.

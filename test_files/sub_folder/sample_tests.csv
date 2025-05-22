@@ -1,0 +1,9 @@
+ID,Title,Preconditions,Test Steps,Expected Results
+TC_CSV_001,Successful Login from CSV,"User is on the login page. Valid credentials are 'csv_user' and 'csv_pass'.","1. Enter 'csv_user' into username field.
+2. Enter 'csv_pass' into password field.
+3. Click 'Login' button.","User is redirected to dashboard. Welcome message 'Welcome csv_user' is displayed."
+TC_CSV_002,Add Product to Cart from CSV,"User is logged in. User is on product page for 'Sample Product CSV'.","1. Click 'Add to Cart' button for 'Sample Product CSV'.
+2. Navigate to cart page.","'Sample Product CSV' is in the cart. Cart quantity is 1."
+TC_CSV_003,Invalid Login Attempt from CSV,"User is on the login page.","1. Enter 'invalid_user' into username field.
+2. Enter 'wrong_pass' into password field.
+3. Click 'Login' button.","Error message 'Invalid credentials' is displayed. User remains on login page."
